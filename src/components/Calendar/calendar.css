@@ -1,0 +1,34 @@
+table{
+    border-collapse: collapse;
+    font-family: "Open Sans", Calibri, Arial, sans-serif;
+    background-color: #ffffff;
+    border: 1px s;
+    border: 1px solid rgb(240, 240, 240);
+}
+thead{
+    background-color: rgb(60, 61, 42);
+    color: white;
+    border: none;
+}
+
+.day-name, .cell{
+    padding: 5px 10px;
+}
+
+.day-cell{
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.year-controller{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.month-controller select{
+    font-size: 18px;
+    width: 100%;
+}
+
+.is-current-date{
+    background-color: rgb(126, 151, 206);
+}
